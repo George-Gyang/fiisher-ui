@@ -1,0 +1,139 @@
+body {
+    /* font-family: "Lora", serif; */
+    font-family: "Manrope", sans-serif;
+}
+.bg {
+    background-color: #f5f5f5;
+}
+
+.purp_bg {
+    background-color: #7707cf;
+}
+
+.purp_text {
+    color: #7707cf;
+}
+
+.purp_border {
+    border: 1px solid #7707cf;
+}
+
+.profile_nav:active {
+    border-bottom: 5px solid #260147;
+}
+
+/* .active{
+    border-bottom: 5px solid #260147;
+} */
+
+.margin_auto {
+    margin: auto;
+    width: fit-content;
+}
+.photo_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70%;
+    bottom: 0px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(
+        232.49deg,
+        #260147 -8.1%,
+        #7707cf 18.67%,
+        #8300eb 58.06%,
+        #ff98ff 90.75%
+    );
+}
+.add_icon {
+    width: 9rem;
+    /* min-width: 200px;
+    max-height: 300px; */
+    height: 9rem;
+    /* height:100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.bg_ash{
+    background-color: #D6D6D6    ;
+}
+
+.text_ash {
+    color: #c3c9d0;
+}
+
+.fs-xsm {
+    font-size: 0.8rem;
+}
+
+.empty_box {
+    max-width: 400px;
+    margin: auto;
+}
+
+.partial_container {
+    width: fit-content;
+    margin: auto;
+}
+
+.png{
+    max-height: 25px;
+}
+
+.outer_circle {
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-color: rgba(119, 7, 207, 0.1);
+    border: 1px solid rgba(119, 7, 207, 0.5);
+}
+
+.inner_circle {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: rgba(119, 7, 207, 0.1);
+    border: 1px solid rgba(119, 7, 207, 0.5);
+}
+
+.match {
+    /* width: fit-content; */
+    min-height: 250px;
+    width: 100%;
+}
+
+.plans_container{
+    margin: 1.5rem 0px;
+}
+
+.primary_gradient {
+    background: linear-gradient(
+        120.49deg,
+        #260147 -8.1%,
+        #7707cf 18.67%,
+        #8300eb 58.06%,
+        #ff98ff 90.75%
+    );
+}
+
+.plans_btn{
+    background-color: #7707cf;
+    color: #f5f5f5;
+}
+
+.card_shadow{
+    box-shadow: 0px 3.76577px 9.41441px rgba(0, 0, 0, 0.05);
+}
+
+.emojis{
+    margin: auto;
+    max-width: 30px;
+    max-height: 30px;
+}
